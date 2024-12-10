@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "start": "babel-node index.js",
-  "dev": "set NODE_ENV=development && babel-node ./initialise-dev/initDevDB.js && nodemon --exec npm start"
+    "start": "babel-node index.js",
+    "dev": "set NODE_ENV=development && babel-node ./initialise-dev/initDevDB.js && nodemon --exec npm start"
   },
   "author": "calc6",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^8.8.4"
+    "mongoose": "^8.8.4",
+    "node-fetch": "^2.7.0"
   }
 }

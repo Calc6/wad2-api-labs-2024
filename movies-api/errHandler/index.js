@@ -1,4 +1,4 @@
-const defaultErrHandler = (err, req, res, next) => {
+const defaultErrHandler = (err, req, res) => {
     /* if the error in development then send stack trace to display whole error,
     if it's in production then just send error message  */
     if(process.env.NODE_ENV === 'production') {
